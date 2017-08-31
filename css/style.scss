@@ -1,0 +1,43 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-31 09:56:38
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-31 09:57:41
+*/
+@charset "UTF-8";
+* {
+    margin: 0rem;
+    padding: 0rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size:1.4rem;
+  }
+
+ul, li {
+    list-style: none; }
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 62.5%; }
+
+img, div, body, html, ul, li, a {
+    -webkit-touch-callout: none; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #ccc; }
+
+.text2 {
+    width:20rem;
+    word-break:break-all;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:4;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
